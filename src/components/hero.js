@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Image } from "grommet";
-import styled from "styled-components";
+//import styled from "styled-components";
 
-function nav() {
+function hero() {
   return (
     <Box
       align="center"
@@ -16,4 +16,4 @@ function nav() {
   );
 }
 
-export default nav;
+export default hero;

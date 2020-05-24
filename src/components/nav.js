@@ -1,13 +1,13 @@
 import React from "react";
 import { Box, Nav, Button, Heading } from "grommet";
-import styled from "styled-components";
+//import styled from "styled-components";
 
-const styledText = styled.h1`
-  font-family: p22-underground, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 100;
-`;
+// const styledText = styled.h1`
+//   font-family: p22-underground, sans-serif;
+//   font-size: 15px;
+//   font-style: normal;
+//   font-weight: 100;
+// `;
 
 function nav() {
   return (
@@ -20,6 +20,8 @@ function nav() {
       wrap={false}
       height="xsmall"
       margin={{ left: "xsmall" }}
+      position="sticky"
+      top="0"
     >
       <Heading textAlign="start" level="2">
         Women in Gaming

@@ -1,8 +1,8 @@
 import React from "react";
 import { Box, Heading, Text } from "grommet";
-import styled from "styled-components";
+//import styled from "styled-components";
 
-function nav() {
+function about() {
   return (
     <Box
       align="start"
@@ -36,4 +36,4 @@ function nav() {
   );
 }
 
-export default nav;
+export default about;

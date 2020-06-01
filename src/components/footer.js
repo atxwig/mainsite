@@ -4,32 +4,57 @@ import { Box, Text, Footer, Form, FormField, TextInput } from "grommet";
 
 function footer() {
     return (
-        <Box align="center" justify="start" pad="medium" background={{ "color": "accent-4" }}>
-            <Footer align="start" direction="row" justify="start" gap="20vw" pad="small">
+        <Box
+            align="center"
+            justify="start"
+            pad="medium"
+            border={{
+                color: "border",
+                size: "medium",
+                style: "solid",
+                side: "top",
+            }}
+        >
+            <Footer
+                align="start"
+                direction="row"
+                justify="start"
+                gap="20vw"
+                pad="small"
+            >
                 <Box align="start" justify="start" direction="column">
-                    <Text size="large" margin={{ "bottom": "xsmall" }}>
-                        Women in Gaming
+                    <Text size="large" margin={{ bottom: "xsmall" }}>
+                        women in gaming
                     </Text>
-                    <Text size="medium" margin={{ "left": "medium" }}>
-                        Events
+                    <Text size="medium" margin={{ left: "medium" }}>
+                        events
                     </Text>
-                    <Text size="medium" margin={{ "left": "medium" }}>
-                        Staff
+                    <Text size="medium" margin={{ left: "medium" }}>
+                        staff
                     </Text>
-                    <Text size="medium" margin={{ "left": "medium" }}>
-                        Resources
+                    <Text size="medium" margin={{ left: "medium" }}>
+                        resources
                     </Text>
-                    <Text size="medium" margin={{ "left": "medium" }}>
-                        Contact
+                    <Text size="medium" margin={{ left: "medium" }}>
+                        contact
                     </Text>
                 </Box>
-                <Box align="start" justify="center" direction="column" gap="small">
-                    <Text size="large">
-                        Join our newsletter!
-                    </Text>
+                <Box
+                    align="start"
+                    justify="center"
+                    direction="column"
+                    gap="small"
+                >
+                    <Text size="large">join our newsletter!</Text>
                     <Form>
                         <FormField>
-                            <TextInput disabled={false} placeholder="beepo@mail.com" plain={false} reverse={false} type="text" />
+                            <TextInput
+                                disabled={false}
+                                placeholder="beepo@mail.com"
+                                plain={false}
+                                reverse={false}
+                                type="text"
+                            />
                         </FormField>
                     </Form>
                 </Box>
